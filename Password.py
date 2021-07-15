@@ -4,7 +4,6 @@ while user:
     user_input = input("Please enter your password: ")
     if user_input == user:
         print("Password Accepted: ")
-        passWord = True
         break
     else:
         if user_input != user:
